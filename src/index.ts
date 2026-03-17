@@ -32,7 +32,7 @@ export default {
 		const corsHeaders: Record<string, string> = {
 			'Access-Control-Allow-Origin': '*',
 			'Access-Control-Allow-Methods': 'GET, HEAD, POST, PUT, OPTIONS',
-			'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+			'Access-Control-Allow-Headers': '*',
 		};
 
 		// if (supportedDomains) {
