@@ -20,7 +20,7 @@ export default {
 			return new Response('Missing HELIUS_API_KEY', { status: 500 });
 		}
 
-		// CORS setup
+		// CORS setup a
 		// If the request is an OPTIONS request, return a 200 response with permissive CORS headers
 		// This is required for the Helius RPC Proxy to work from the browser and arbitrary origins
 		// If you wish to restrict the origins that can access your Helius RPC Proxy, you can do so by
